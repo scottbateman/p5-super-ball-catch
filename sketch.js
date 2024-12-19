@@ -17,8 +17,8 @@ function setup() {
 
   //new Player(playerNumber, color, startingBallSpeed, leftMoveKeyCode, rightMoveKeyCode)
   //get keycodes here: https://www.toptal.com/developers/keycode
-  player1 = new Player(1, player1Color, 2, LEFT_ARROW, RIGHT_ARROW);
-  player2 = new Player(2, player2Color, 2, 65, 68);
+  player1 = new Player(1, player1Color, 2, LEFT_ARROW, RIGHT_ARROW, ["Q", "W", "E", "R", "T"]);
+  player2 = new Player(2, player2Color, 2, 65, 68, ["Y", "U", "I", "O", "P"]);
 
   players.push(player1, player2);
 }
